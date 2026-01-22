@@ -1,4 +1,6 @@
-Análisis del Teatro Musical en España (2010–2026)
+
+🎭 Análisis del Teatro Musical en España (2010–2026)
+
 📌 Objetivo
 
 Este proyecto analiza la evolución del teatro musical en España entre 2010 y 2026 con el objetivo de identificar:
@@ -211,6 +213,6 @@ No busca exhaustividad absoluta, sino la identificación de tendencias estructur
 
 ✔ ETL documentado
 ✔ Modelo con tres datasets finales
-✔  Dashboards Power BI
-  Storytelling sectorial
-  Posibles ampliaciones futuras (automatización, modelo estrella, pricing avanzado)
+✔ Dashboards Power BI
+✔ Storytelling sectorial
+⏳ Posibles ampliaciones futuras (automatización, modelo estrella, pricing avanzado)
