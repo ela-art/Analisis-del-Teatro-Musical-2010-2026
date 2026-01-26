@@ -1,4 +1,7 @@
 
+![Mapa inicios geográficos](docs/mapa_inicios_producciones.png)
+
+
 Análisis del Teatro Musical en España (2010–2026)
 Objetivo
 
