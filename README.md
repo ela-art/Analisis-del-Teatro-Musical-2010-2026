@@ -4,17 +4,43 @@ Objetivo
 
 Proyecto de análisis de datos sobre la evolución del teatro musical en España (2010–2026) orientado a identificar:
 
-patrones de producción
+Patrones de producción
 
-concentración empresarial
+Concentración empresarial
 
-dinámicas territoriales
+Dinámicas territoriales
 
-explotación en gira
+Explotación en gira
 
-características artísticas del sector
+Características artísticas del sector
 
 Combina análisis cuantitativo, conocimiento sectorial y visualización en Power BI con foco en la toma de decisiones culturales y de negocio.
+
+Metodología y construcción del dataset
+
+Ante la ausencia de bases de datos centralizadas sobre el sector del teatro musical en España, todos los datasets del proyecto fueron construidos manualmente desde cero en Python.
+
+La recopilación se realizó a partir de:
+
+Anuario de Estadísticas Culturales (Ministerio de Cultura)
+
+Informes de la SGAE
+
+Webs especializadas y oficiales del sector
+
+Conocimiento profesional propio del ámbito teatral
+
+Los archivos CSV finales fueron:
+
+Diseñados desde cero
+
+Normalizados y estandarizados
+
+Validados manualmente
+
+Enriquecidos con variables artísticas, territoriales y temporales
+
+Todo el proceso ETL, EDA y modelado se ejecutó manualmente mediante notebooks reproducibles.
 
 Dashboards en Power BI
 
@@ -49,32 +75,48 @@ Ubicación:
 
 /data_processed/
 
+Limitaciones del análisis
+
+Los precios corresponden a tarifas publicadas en webs oficiales, no a ticket medio real ni ingresos de taquilla.
+
+La muestra de pricing 2026 es reducida (5 productoras y 10 musicales).
+
+No se dispone de datos internos de venta o ocupación.
+
+Existe fuerte heterogeneidad por plaza y teatro.
+
+El dataset maestro contiene 71 musicales seleccionados manualmente.
+
+El dataset de hábitos está limitado al periodo visible en las gráficas.
+
+Algunas métricas utilizan proxies y estimaciones documentadas.
+
 Proceso analítico
 ETL y preparación
 
-Integración de fuentes institucionales y sectoriales.
+Integración de fuentes institucionales y sectoriales
 
-Normalización de nombres y marcas históricas.
+Normalización de nombres y marcas históricas
 
-Eliminación de duplicados.
+Eliminación de duplicados
 
-Validación de tipos y estados.
+Validación de tipos y estados
 
-Enriquecimiento con género, origen, ciudad y métricas temporales.
+Enriquecimiento con género, origen, ciudad y métricas temporales
 
 Exploración y análisis
 
-Auditoría de calidad.
+Auditoría de calidad
 
-Análisis territorial.
+Análisis territorial
 
-Estudio de giras y escalabilidad.
+Estudio de giras y escalabilidad
 
-Concentración empresarial.
+Concentración empresarial
 
-Duración media y formatos dominantes.
+Duración media y formatos dominantes
 
-Posicionamiento de precios.
+Posicionamiento de precios
 
 Tecnologías
 
@@ -102,21 +144,21 @@ Duración media estabilizada (~138 minutos).
 
 Estructura del repositorio
 /
-├─ data_raw/          # Datos originales
-├─ data_interim/      # Versiones intermedias tras limpieza
-├─ data_processed/    # Datasets finales para análisis y BI
-├─ docs/              # Exportaciones finales y PDF del proyecto
-├─ notebooks_eda/     # Exploratory Data Analysis
-├─ notebooks_etl/     # Pipelines de preparación
-├─ dashboards/        # Capturas / exportaciones Power BI
+├─ data_raw/          
+├─ data_interim/      
+├─ data_processed/    
+├─ docs/              
+├─ notebooks_eda/     
+├─ notebooks_etl/     
+├─ dashboards/        
 ├─ .gitignore
 └─ README.md
 
-Cómo reproducir el proyecto:
+Cómo reproducir el proyecto
 
 Clonar el repositorio.
 
-Ejecutar los notebooks de /notebooks_etl/.
+Ejecutar notebooks en /notebooks_etl/.
 
 Revisar análisis en /notebooks_eda/.
 
@@ -130,7 +172,6 @@ El PDF final del proyecto se encuentra en:
 
 /docs/
 
-
 Incluye resumen ejecutivo, storytelling sectorial y visualizaciones clave.
 
 Estado del proyecto
@@ -140,7 +181,7 @@ Estado del proyecto
 ✔ Dashboards Power BI
 ✔ Storytelling sectorial
 
-Posibles ampliaciones futuras:
+Posibles ampliaciones futuras
 
 Series temporales predictivas
 
