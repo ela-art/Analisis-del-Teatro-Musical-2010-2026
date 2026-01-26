@@ -29,7 +29,7 @@ Anuario de Estadísticas Culturales (Ministerio de Cultura)
 
 Informes de la SGAE
 
-Webs especializadas y oficiales del sector
+Webs oficiales del sector y archivo de webs especializadas (carteleramusicales.es)
 
 Conocimiento profesional propio del ámbito teatral
 
