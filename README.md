@@ -17,23 +17,25 @@ Explotación en gira
 
 Características artísticas del sector
 
-Combina análisis cuantitativo, conocimiento sectorial y visualización en Power BI con foco en la toma de decisiones culturales y de negocio.
+El enfoque combina análisis cuantitativo, conocimiento sectorial y visualización en Power BI con foco en la toma de decisiones culturales y de negocio.
 
 Metodología y construcción del dataset
 
-Ante la ausencia de bases de datos centralizadas sobre el sector del teatro musical en España, todos los datasets del proyecto fueron construidos manualmente desde cero en Python.
+Ante la ausencia de bases de datos centralizadas sobre el sector del teatro musical en España, todos los datasets fueron construidos manualmente desde cero en Python.
 
-La recopilación se realizó a partir de:
+Fuentes utilizadas:
 
 Anuario de Estadísticas Culturales (Ministerio de Cultura)
 
-Informes de la SGAE
+Anuario de la SGAE
 
-Webs oficiales del sector y archivo de webs especializadas (carteleramusicales.es)
+Webs oficiales del sector
+
+Archivo de webs especializadas (carteleramusicales.es)
 
 Conocimiento profesional propio del ámbito teatral
 
-Los archivos CSV finales fueron:
+Los CSV finales fueron:
 
 Diseñados desde cero
 
@@ -43,11 +45,11 @@ Validados manualmente
 
 Enriquecidos con variables artísticas, territoriales y temporales
 
-Todo el proceso ETL, EDA y modelado se ejecutó manualmente mediante notebooks reproducibles.
+Todo el proceso ETL, EDA y modelado se documentó mediante notebooks reproducibles.
 
 Dashboards en Power BI
 
-El proyecto incluye dashboards interactivos centrados en:
+Dashboards interactivos centrados en:
 
 Evolución del teatro musical (2010–2025)
 
@@ -61,38 +63,37 @@ Perfil artístico y estructural
 
 Explotación y comportamiento de giras
 
-Capturas y exportaciones disponibles en:
+Exportaciones disponibles en:
 
 /dashboards/
 
 Datasets finales utilizados
-
-El modelo analítico se apoya en tres tablas principales:
-
 Dataset	Contenido	Uso
 maestro_musicales_final.csv	Obras, productoras, teatros, género, origen, años, gira	Estructura sectorial
-precios_musicales_limpio_definitivo.csv	Precios anunciados en 2026	Pricing
+precios_musicales_limpio_definitivo.csv	Precios publicados 2026	Pricing
 teatro_musical_habitos_2011_2025_limpio.csv	Asistencia y hábitos	Demanda
 
 Ubicación:
 
 /data_processed/
 
-Limitaciones del análisis
+Limitaciones del análisis y supuestos
 
-Los precios corresponden a tarifas publicadas en webs oficiales, no a ticket medio real ni ingresos de taquilla.
+Precios proceden de tarifas web oficiales, no ticket medio real ni ingresos de taquilla.
 
-La muestra de pricing 2026 es reducida (5 productoras y 10 musicales).
+Muestra reducida en pricing 2026 (5 productoras, 10 títulos).
 
-No se dispone de datos internos de venta o ocupación.
+Ausencia de datos internos de venta u ocupación.
 
-Existe fuerte heterogeneidad por plaza y teatro.
+Alta heterogeneidad por plaza y teatro.
 
-El dataset maestro contiene 71 musicales seleccionados manualmente.
+Dataset maestro compuesto por 71 musicales seleccionados manualmente.
 
-El dataset de hábitos está limitado al periodo visible en las gráficas.
+Dataset de hábitos limitado al periodo visible en las visualizaciones.
 
-Algunas métricas utilizan proxies y estimaciones documentadas.
+Uso de proxies y estimaciones documentadas (semanas en cartel, espectadores).
+
+La longevidad en cartel se calcula incorporando tanto obras cerradas como activas —estimadas hasta la fecha de análisis— lo que permite identificar correctamente casos extremos como El Rey León, The Hole o Forever Young.
 
 Proceso analítico
 ETL y preparación
@@ -143,19 +144,21 @@ Alta concentración empresarial.
 
 Madrid como principal polo inicial.
 
-Más del 50% de títulos en gira.
+Más del 50% de títulos entran en gira.
 
 Duración media estabilizada (~138 minutos).
 
+La longevidad extrema se concentra en unos pocos títulos con explotación sostenida (El Rey León lidera el ranking).
+
 Estructura del repositorio
 /
-├─ data_raw/          
-├─ data_interim/      
-├─ data_processed/    
-├─ docs/              
-├─ notebooks_eda/     
-├─ notebooks_etl/     
-├─ dashboards/        
+├─ data_raw/
+├─ data_interim/
+├─ data_processed/
+├─ docs/
+├─ notebooks_eda/
+├─ notebooks_etl/
+├─ dashboards/
 ├─ .gitignore
 └─ README.md
 
@@ -176,6 +179,7 @@ Documentación adicional
 El PDF final del proyecto se encuentra en:
 
 /docs/
+
 
 Incluye resumen ejecutivo, storytelling sectorial y visualizaciones clave.
 
