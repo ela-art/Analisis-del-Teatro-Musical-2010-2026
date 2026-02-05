@@ -1,11 +1,15 @@
 
 ![Mapa inicios geográficos](docs/mapa_inicios_producciones.png)
 
-**Análisis del Teatro Musical en España (2010–2026)** — Autora: *Ela Ruiz González, Analista de Datos*. Proyecto sectorial para detectar patrones de producción, concentración empresarial, dinámicas territoriales, explotación en gira y características artísticas mediante ETL reproducible y dashboards en Power BI orientados a decisiones culturales y de negocio.
+**Análisis del Teatro Musical en España (2010–2026)** — Autora: *Ela Ruiz González, Analista de Datos*. 
+mail: elaruizgonzalez@gmail.com
+
+Proyecto sectorial para detectar patrones de producción, concentración empresarial, dinámicas territoriales, explotación en gira y características artísticas mediante ETL reproducible y dashboards en Power BI orientados a decisiones culturales y de negocio.
 
 **Datos, fuentes y metodología** — Datasets construidos desde cero en Python a partir del Anuario de Estadísticas Culturales, SGAE, webs oficiales, archivos especializados y conocimiento profesional; CSV normalizados, validados y enriquecidos con variables artísticas, temporales y geográficas; proceso documentado con notebooks ETL/EDA y visualización en Power BI.
 
 **Proceso analítico y EDA ordenado** — ETL: integración de fuentes, normalización histórica, deduplicación, validación de tipos y enriquecimiento; EDA: auditoría de calidad, análisis territorial, giras y escalabilidad, concentración empresarial, duración media, formatos dominantes y pricing; tecnologías: Python (Pandas, NumPy), Jupyter, Matplotlib, Seaborn, Power BI, Git/GitHub, ChatGPT.
+Cada notebook EDA incluye visualizaciones sistemáticas (distribuciones, outliers, correlaciones y series temporales) usadas para validar hipótesis antes del modelado en Power BI.
 
 **Implicaciones estratégicas y decisiones para productores** — El proyecto culmina con un bloque ejecutivo de conclusiones del mercado (2010–2026), implicaciones estratégicas y decisiones operativas para productores basadas en reglas como P75/P90 para expansión y pricing.
 
