@@ -27,4 +27,4 @@
 
 **Cómo recorrer el proyecto**
 
-Clonar el repositorio y comenzar por /data_raw/ para ver los datos originales; continuar con /data_interim/ para entender la transformación; revisar /notebooks_eda/ para el análisis; continuar con /notebooks_etl/ consultar /data_processed/ para los datasets finales; explorar dashboards y documentación en /docs/.
+Clonar el repositorio y comenzar por /data_raw/ para ver los datos originales; continuar con /data_interim/ para entender la transformación; revisar /notebooks_eda/ para el análisis (Los EDA iniciales sirvieron para detectar inconsistencias y definir la estructura final del dataset maestro, que se construyó posteriormente en el ETL); continuar con /notebooks_etl/ consultar /data_processed/ para los datasets finales; explorar dashboards y documentación en /docs/.
