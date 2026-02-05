@@ -7,7 +7,12 @@
 
 **Proceso analítico y EDA ordenado** — ETL: integración de fuentes, normalización histórica, deduplicación, validación de tipos y enriquecimiento; EDA: auditoría de calidad, análisis territorial, giras y escalabilidad, concentración empresarial, duración media, formatos dominantes y pricing; tecnologías: Python (Pandas, NumPy), Jupyter, Matplotlib, Seaborn, Power BI, Git/GitHub, ChatGPT.
 
-**Hallazgos y limitaciones** — Predominio de franquicias (~73%), alta concentración empresarial, Madrid como polo inicial, >50 % de títulos en gira y longevidad extrema en pocos casos (lidera *El Rey León*); precios basados en tarifas web, muestra limitada en 2026, ausencia de datos internos de taquilla, alta heterogeneidad por plaza, 71 musicales seleccionados manualmente y uso de proxies documentados.
+**Implicaciones estratégicas y decisiones para productores** — El proyecto culmina con un bloque ejecutivo de conclusiones del mercado (2010–2026), implicaciones estratégicas y decisiones operativas para productores basadas en reglas como P75/P90 para expansión y pricing.
+
+
+**Hallazgos y limitaciones** — Predominio de franquicias (~73%), alta concentración empresarial, Madrid como polo inicial, >50 % de títulos en gira y longevidad extrema en pocos casos (lidera *El Rey León*). 
+
+Precios basados en tarifas web, muestra limitada en 2026, ausencia de datos internos de taquilla, alta heterogeneidad por plaza, 71 musicales seleccionados manualmente y uso de proxies documentados.
 
 **Repositorio, reproducción y estado**
 
