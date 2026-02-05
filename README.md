@@ -1,9 +1,6 @@
 
 ![Mapa inicios geográficos](docs/mapa_inicios_producciones.png)
 
-
-Aquí tienes el README **reordenado, profesional y listo para portfolio** en formato compacto para pegar:
-
 **Análisis del Teatro Musical en España (2010–2026)** — Autora: *Ela Ruiz González, Analista de Datos*. Proyecto sectorial para detectar patrones de producción, concentración empresarial, dinámicas territoriales, explotación en gira y características artísticas mediante ETL reproducible y dashboards en Power BI orientados a decisiones culturales y de negocio.
 
 **Datos, fuentes y metodología** — Datasets construidos desde cero en Python a partir del Anuario de Estadísticas Culturales, SGAE, webs oficiales, archivos especializados y conocimiento profesional; CSV normalizados, validados y enriquecidos con variables artísticas, temporales y geográficas; proceso documentado con notebooks ETL/EDA y visualización en Power BI.
