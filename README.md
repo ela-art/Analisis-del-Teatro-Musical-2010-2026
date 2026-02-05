@@ -11,6 +11,8 @@
 
 **Repositorio, reproducción y estado**
 
+/dashboards/ contiene los archivos de Power BI con todo el trabajo final integrado: modelos, visualizaciones y storytelling analítico.
+
 /data_interim/ contiene los archivos intermedios generados durante el proceso de limpieza y transformación: datasets parciales, KPIs temporales y versiones previas utilizadas para validar cálculos antes de construir los modelos finales.
 
 /data_processed/ alberga los datasets finales listos para análisis y visualización en Power BI, incluyendo el dataset maestro del sector, el pricing definitivo y el dataset de hábitos de asistencia.
