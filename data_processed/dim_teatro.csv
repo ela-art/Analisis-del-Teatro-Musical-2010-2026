@@ -1,29 +1,29 @@
-﻿teatro
-Gran Teatro CaixaBank Príncipe Pío
-Teatro Coliseum
-Teatro Nuevo Alcalá
-Teatro Nuevo Apolo
-Teatro Albéniz
-Teatro Tívoli
-Espacio Ibercaja Delicias
-Teatro Marquina
-Teatro Del Soho
-Teatre Apolo
-Teatro EDP Gran Vía
-Teatro Lope de Vega
-Teatro Principal de Zaragoza
-Teatro Pavón
-Teatros del Canal
-Teatro Español
-Veranos de la Villa
-Teatro La Latina
-Las Arenas
-Teatro Calderón
-Espacio Delicias
-Teatro Rialto
-Teatre Poliorama
-Teatro Lara
-Ifema Madrid Live
-Teatre Victòria
-Auditorio de Tenerife
-Almería Teatre
+﻿id_teatro,teatro,ciudad
+1,Gran Teatro CaixaBank Príncipe Pío,Madrid
+2,Teatro Coliseum,Madrid
+3,Teatro Nuevo Alcalá,Madrid
+4,Teatro Nuevo Apolo,Madrid
+5,Teatro Albéniz,Madrid
+6,Teatro Tívoli,Barcelona
+7,Espacio Ibercaja Delicias,Zaragoza
+8,Teatro Marquina,Madrid
+9,Teatro Del Soho,Málaga
+10,Teatre Apolo,Barcelona
+11,Teatro EDP Gran Vía,Madrid
+12,Teatro Lope de Vega,Sevilla
+13,Teatro Principal de Zaragoza,Zaragoza
+14,Teatro Pavón,Madrid
+15,Teatros del Canal,Madrid
+16,Teatro Español,Madrid
+17,Veranos de la Villa,Madrid
+18,Teatro La Latina,Madrid
+19,Las Arenas,Barcelona
+20,Teatro Calderón,Madrid
+21,Espacio Delicias,Zaragoza
+22,Teatro Rialto,Madrid
+23,Teatre Poliorama,Barcelona
+24,Teatro Lara,Madrid
+25,Ifema Madrid Live,Madrid
+26,Teatre Victòria,Barcelona
+27,Auditorio de Tenerife,Tenerife
+28,Almería Teatre,Almería

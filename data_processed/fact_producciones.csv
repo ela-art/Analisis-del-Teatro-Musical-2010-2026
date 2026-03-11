@@ -1,80 +1,80 @@
-﻿id_produccion,obra,productora,anio_inicio,anio_fin,teatro,gira
-"101 DÁLMATAS, EL MUSICAL_TEATROPOLIS (GRAN TEATRO CAIXABANK PRÍNCIPE PÍO)_2023","101 Dálmatas, el musical",Teatropolis (Gran Teatro CaixaBank Príncipe Pío),2023,,Gran Teatro CaixaBank Príncipe Pío,
-ALADDÍN_STAGE ENTERTAINMENT_2023,Aladdín,Stage Entertainment,2023,2025,Teatro Coliseum,
-ANASTASIA_STAGE ENTERTAINMENT_2018,Anastasia,Stage Entertainment,2018,2020,Teatro Coliseum,
-ANNIE_THEATRE PROPERTIES_2010,Annie,Theatre Properties,2010,2011,Teatro Nuevo Alcalá,
-AVENUE Q_SMEDIA_2010,Avenue Q,SMedia,2010,2011,Teatro Nuevo Apolo,
-AVENUE Q_TEATROPOLIS (GRAN TEATRO CAIXABANK PRÍNCIPE PÍO)_2024,Avenue Q,Teatropolis (Gran Teatro CaixaBank Príncipe Pío),2024,,Gran Teatro CaixaBank Príncipe Pío,
-BILLY ELLIOT_ATG ENTERTAINMENT_2017,Billy Elliot,ATG Entertainment,2017,2020,Teatro Nuevo Alcalá,
-CABARET_LET'S GO COMPANY_2025,Cabaret,Let's Go Company,2025,,Teatro Albéniz,
-CANTANDO BAJO LA LLUVIA_NOSTROMO LIVE_2021,Cantando bajo la lluvia,Nostromo live,2021,2023,Teatro Tívoli,
-CENICIENTA_STAGE ENTERTAINMENT_2025,Cenicienta,Stage Entertainment,2025,,Teatro Coliseum,
-CHARLIE Y LA FÁBRICA DE CHOCOLATE_LET'S GO COMPANY_2021,Charlie y la fábrica de chocolate,Let's Go Company,2021,2022,Espacio Ibercaja Delicias,
-CHICAGO_ATG ENTERTAINMENT_2023,Chicago,ATG Entertainment,2023,2025,Teatro Nuevo Apolo,
-COME FROM AWAY_THE STAGE COMPANY_2024,Come from away,The Stage Company,2024,2025,Teatro Marquina,
+﻿id_produccion,obra,productora,anio_inicio,anio_fin,teatro,gira,id_obra,id_teatro
+"101 DÁLMATAS, EL MUSICAL_TEATROPOLIS (GRAN TEATRO CAIXABANK PRÍNCIPE PÍO)_2023","101 Dálmatas, el musical",Teatropolis (Gran Teatro CaixaBank Príncipe Pío),2023,,Gran Teatro CaixaBank Príncipe Pío,,1,1
+ALADDÍN_STAGE ENTERTAINMENT_2023,Aladdín,Stage Entertainment,2023,2025,Teatro Coliseum,,2,2
+ANASTASIA_STAGE ENTERTAINMENT_2018,Anastasia,Stage Entertainment,2018,2020,Teatro Coliseum,,3,2
+ANNIE_THEATRE PROPERTIES_2010,Annie,Theatre Properties,2010,2011,Teatro Nuevo Alcalá,,4,3
+AVENUE Q_SMEDIA_2010,Avenue Q,SMedia,2010,2011,Teatro Nuevo Apolo,,5,4
+AVENUE Q_TEATROPOLIS (GRAN TEATRO CAIXABANK PRÍNCIPE PÍO)_2024,Avenue Q,Teatropolis (Gran Teatro CaixaBank Príncipe Pío),2024,,Gran Teatro CaixaBank Príncipe Pío,,5,1
+BILLY ELLIOT_ATG ENTERTAINMENT_2017,Billy Elliot,ATG Entertainment,2017,2020,Teatro Nuevo Alcalá,,6,3
+CABARET_LET'S GO COMPANY_2025,Cabaret,Let's Go Company,2025,,Teatro Albéniz,,7,5
+CANTANDO BAJO LA LLUVIA_NOSTROMO LIVE_2021,Cantando bajo la lluvia,Nostromo live,2021,2023,Teatro Tívoli,,8,6
+CENICIENTA_STAGE ENTERTAINMENT_2025,Cenicienta,Stage Entertainment,2025,,Teatro Coliseum,,9,2
+CHARLIE Y LA FÁBRICA DE CHOCOLATE_LET'S GO COMPANY_2021,Charlie y la fábrica de chocolate,Let's Go Company,2021,2022,Espacio Ibercaja Delicias,,10,7
+CHICAGO_ATG ENTERTAINMENT_2023,Chicago,ATG Entertainment,2023,2025,Teatro Nuevo Apolo,,11,4
+COME FROM AWAY_THE STAGE COMPANY_2024,Come from away,The Stage Company,2024,2025,Teatro Marquina,,12,8
 COMPANY_TEATRO DEL SOHO S.L._2021,Company,"Teatro del Soho S.L.
-",2021,2023,Teatro Del Soho,
-DIRTY DANCING_LET'S GO COMPANY_2018,Dirty Dancing,Let's Go Company,2018,2023,Teatro Nuevo Alcalá,
-EL DÍA DE LA MARMOTA_NOSTROMO LIVE_2024,El Día de la Marmota,Nostromo Live,2024,2025,Teatre Apolo,
-EL FANTASMA DE LA ÓPERA_LET'S GO COMPANY_2023,El Fantasma de la Ópera,Let's Go Company,2023,,Teatro Albéniz,
-EL GUARDAESPALDAS_STAGE ENTERTAINMENT_2017,El Guardaespaldas,Stage Entertainment,2017,2018,Teatro Coliseum,
-EL JOVENCITO FRANKENSTEIN_LET'S GO COMPANY_2018,El Jovencito Frankenstein,Let's Go Company,2018,2019,Teatro EDP Gran Vía,
-EL MÉDICO_BEON ENTERTAINMENT_2018,El Médico,Beon Entertainment,2018,2023,Teatro Nuevo Apolo,
-EL REY LEÓN_STAGE ENTERTAINMENT_2011,El Rey León,Stage Entertainment,2011,,Teatro Lope de Vega,
-EL TIEMPO ENTRE COSTURAS_BEON ENTERTAINMENT_2021,El Tiempo entre Costuras,Beon Entertainment,2021,2024,Teatro Principal de Zaragoza,
-EL ASCENSOR_ACTOR’S FIRST._2017,El ascensor,Actor’s First.,2017,2018,Teatro Pavón,
-EL ÚLTIMO JINETE_ARABIAN HORSES PRODUCTION LTD_2012,El último jinete,Arabian Horses Production LTD,2012,2013,Teatros del Canal,
-EN TIERRA EXTRAÑA_ATG ENTERTAINMENT_2021,En tierra extraña,ATG Entertainment,2021,2023,Teatro Español,
-FLASHDANCE_SELLADOOR WORLDWIDE_2019,Flashdance,Selladoor Worldwide,2019,2020,Teatro Tívoli,
-FOLLIES_MARIO GAS_2012,Follies,Mario Gas,2012,2013,Teatro Español,
-FOREVER YOUNG_TRICICLE_2011,Forever Young,Tricicle,2011,2022,Teatro EDP Gran Vía,
-"GHOST, EL MUSICAL_LET'S GO COMPANY_2019","Ghost, el musical",Let's Go Company,2019,2024,Teatro EDP Gran Vía,
-GOLFUS DE ROMA_EUROSCENA_2015,Golfus de Roma,Euroscena,2015,2015,Veranos de la Villa,
+",2021,2023,Teatro Del Soho,,13,9
+DIRTY DANCING_LET'S GO COMPANY_2018,Dirty Dancing,Let's Go Company,2018,2023,Teatro Nuevo Alcalá,,14,3
+EL DÍA DE LA MARMOTA_NOSTROMO LIVE_2024,El Día de la Marmota,Nostromo Live,2024,2025,Teatre Apolo,,15,10
+EL FANTASMA DE LA ÓPERA_LET'S GO COMPANY_2023,El Fantasma de la Ópera,Let's Go Company,2023,,Teatro Albéniz,,16,5
+EL GUARDAESPALDAS_STAGE ENTERTAINMENT_2017,El Guardaespaldas,Stage Entertainment,2017,2018,Teatro Coliseum,,17,2
+EL JOVENCITO FRANKENSTEIN_LET'S GO COMPANY_2018,El Jovencito Frankenstein,Let's Go Company,2018,2019,Teatro EDP Gran Vía,,18,11
+EL MÉDICO_BEON ENTERTAINMENT_2018,El Médico,Beon Entertainment,2018,2023,Teatro Nuevo Apolo,,19,4
+EL REY LEÓN_STAGE ENTERTAINMENT_2011,El Rey León,Stage Entertainment,2011,,Teatro Lope de Vega,,20,12
+EL TIEMPO ENTRE COSTURAS_BEON ENTERTAINMENT_2021,El Tiempo entre Costuras,Beon Entertainment,2021,2024,Teatro Principal de Zaragoza,,21,13
+EL ASCENSOR_ACTOR’S FIRST._2017,El ascensor,Actor’s First.,2017,2018,Teatro Pavón,,22,14
+EL ÚLTIMO JINETE_ARABIAN HORSES PRODUCTION LTD_2012,El último jinete,Arabian Horses Production LTD,2012,2013,Teatros del Canal,,23,15
+EN TIERRA EXTRAÑA_ATG ENTERTAINMENT_2021,En tierra extraña,ATG Entertainment,2021,2023,Teatro Español,,24,16
+FLASHDANCE_SELLADOOR WORLDWIDE_2019,Flashdance,Selladoor Worldwide,2019,2020,Teatro Tívoli,,25,6
+FOLLIES_MARIO GAS_2012,Follies,Mario Gas,2012,2013,Teatro Español,,26,16
+FOREVER YOUNG_TRICICLE_2011,Forever Young,Tricicle,2011,2022,Teatro EDP Gran Vía,,27,11
+"GHOST, EL MUSICAL_LET'S GO COMPANY_2019","Ghost, el musical",Let's Go Company,2019,2024,Teatro EDP Gran Vía,,28,11
+GOLFUS DE ROMA_EUROSCENA_2015,Golfus de Roma,Euroscena,2015,2015,Veranos de la Villa,,29,17
 GOLFUS DE ROMA_PENTACIÓN ESPECTÁCULOS_2022,Golfus de Roma,"Pentación Espectáculos
-",2022,2023,Teatro La Latina,
-GREASE_DRIVE ENTERTAINMENT_2011,Grease,Drive Entertainment,2011,2014,Las Arenas,
-GREASE_ATG ENTERTAINMENT_2021,Grease,ATG Entertainment,2021,2023,Teatro Nuevo Alcalá,
-GYPSY_TEATRO DEL SOHO S.L._2024,Gypsy,Teatro del Soho S.L.,2024,2025,Teatro Del Soho,
-HAIR_THE WILLIAM MORRIS AGENCY ENDEAVOR ENTERTAINMENT; ILLUMINATI PRODUCTION GROUP; PUBLINTERMEDIA CONSULTING; JK PRODUCTIONS_2010,Hair,The William Morris Agency Endeavor Entertainment; Illuminati Production Group; Publintermedia Consulting; JK Productions,2010,2011,Teatre Apolo,
-HOUDINI_LET'S GO COMPANY_2025,Houdini,Let's Go Company,2025,,Teatro Calderón,
-KINKY BOOTS_LET'S GO COMPANY_2021,Kinky Boots,Let's Go Company,2021,2022,Espacio Delicias,
-KINKY BOOTS_THEATRE PROPERTIES_2024,Kinky Boots,Theatre Properties,2024,2025,Teatro Rialto,
-LA ALEGRÍA QUE PASA_DAGOLL DAGOM_2022,La Alegría que Pasa,Dagoll Dagom,2022,2023,Teatre Poliorama,
-LA FAMILIA ADDAMS_LET'S GO COMPANY_2017,La Familia Addams,Let's Go Company,2017,2018,Teatro Calderón,
-LA HISTORIA INTERMINABLE_BEON ENTERTAINMENT_2022,La Historia Interminable,Beon Entertainment,2022,2024,Teatro Calderón,
-LA JAULA DE LAS LOCAS_NOSTROMO LIVE_2018,La Jaula de las Locas,Nostromo Live,2018,2020,Teatro Tívoli,
-LA LLAMADA_SUMA LATINA / LOS JAVIS_2013,La Llamada,Suma Latina / Los Javis,2013,,Teatro Lara,
+",2022,2023,Teatro La Latina,,29,18
+GREASE_DRIVE ENTERTAINMENT_2011,Grease,Drive Entertainment,2011,2014,Las Arenas,,30,19
+GREASE_ATG ENTERTAINMENT_2021,Grease,ATG Entertainment,2021,2023,Teatro Nuevo Alcalá,,30,3
+GYPSY_TEATRO DEL SOHO S.L._2024,Gypsy,Teatro del Soho S.L.,2024,2025,Teatro Del Soho,,31,9
+HAIR_THE WILLIAM MORRIS AGENCY ENDEAVOR ENTERTAINMENT; ILLUMINATI PRODUCTION GROUP; PUBLINTERMEDIA CONSULTING; JK PRODUCTIONS_2010,Hair,The William Morris Agency Endeavor Entertainment; Illuminati Production Group; Publintermedia Consulting; JK Productions,2010,2011,Teatre Apolo,,32,10
+HOUDINI_LET'S GO COMPANY_2025,Houdini,Let's Go Company,2025,,Teatro Calderón,,33,20
+KINKY BOOTS_LET'S GO COMPANY_2021,Kinky Boots,Let's Go Company,2021,2022,Espacio Delicias,,34,21
+KINKY BOOTS_THEATRE PROPERTIES_2024,Kinky Boots,Theatre Properties,2024,2025,Teatro Rialto,,34,22
+LA ALEGRÍA QUE PASA_DAGOLL DAGOM_2022,La Alegría que Pasa,Dagoll Dagom,2022,2023,Teatre Poliorama,,35,23
+LA FAMILIA ADDAMS_LET'S GO COMPANY_2017,La Familia Addams,Let's Go Company,2017,2018,Teatro Calderón,,36,20
+LA HISTORIA INTERMINABLE_BEON ENTERTAINMENT_2022,La Historia Interminable,Beon Entertainment,2022,2024,Teatro Calderón,,37,20
+LA JAULA DE LAS LOCAS_NOSTROMO LIVE_2018,La Jaula de las Locas,Nostromo Live,2018,2020,Teatro Tívoli,,38,6
+LA LLAMADA_SUMA LATINA / LOS JAVIS_2013,La Llamada,Suma Latina / Los Javis,2013,,Teatro Lara,,39,24
 LA BELLA Y LA BESTIA_STAGE ENTERTAINMENT_2012,La bella y la bestia,"Stage Entertainment
-",2012,2013,Teatro Calderón,
-"LA MOVIDA,EL MUSICAL_THEATRE PROPERTIES_2024","La movida,el musical",Theatre Properties,2024,2025,Teatro Coliseum,
-LOS MISERABLES_ATG ENTERTAINMENT_2025,Los Miserables,ATG Entertainment,2025,,Teatro Nuevo Apolo,
-LOS PILARES DE LA TIERRA_BEON ENTERTAINMENT_2024,Los Pilares de la Tierra,Beon Entertainment,2024,,Teatro EDP Gran Vía,
-LOS PRODUCTORES_NOSTROMO LIVE_2023,Los Productores,Nostromo Live,2023,2024,Teatro Tívoli,
+",2012,2013,Teatro Calderón,,40,20
+"LA MOVIDA,EL MUSICAL_THEATRE PROPERTIES_2024","La movida,el musical",Theatre Properties,2024,2025,Teatro Coliseum,,41,2
+LOS MISERABLES_ATG ENTERTAINMENT_2025,Los Miserables,ATG Entertainment,2025,,Teatro Nuevo Apolo,,42,4
+LOS PILARES DE LA TIERRA_BEON ENTERTAINMENT_2024,Los Pilares de la Tierra,Beon Entertainment,2024,,Teatro EDP Gran Vía,,43,11
+LOS PRODUCTORES_NOSTROMO LIVE_2023,Los Productores,Nostromo Live,2023,2024,Teatro Tívoli,,44,6
 LOS PUENTES DE MADISON_SMEDIA_2022,Los puentes de Madison,"SMedia
-",2022,2023,Teatro EDP Gran Vía,
-MALINCHE_HATCHWELL INVERSIONES MUSICALES S.L._2022,Malinche,Hatchwell Inversiones Musicales S.L.,2022,2025,Ifema Madrid Live,
-MAMMA MIA!_ATG ENTERTAINMENT_2022,Mamma Mia!,ATG Entertainment,2022,,Teatro Rialto,
-MARI I CEL_DAGOLL DAGOM_2024,Mari i Cel,Dagoll Dagom,2024,2025,Teatre Victòria,
-MARTA TIENE UN MARCAPASOS_SMEDIA_2013,Marta tiene un marcapasos,Smedia,2013,2014,Teatro EDP Gran Vía,
-MAS DE 100 MENTIRAS_DRIVE ENTERTAINMENT_2011,Mas de 100 mentiras,Drive Entertainment,2011,2013,Teatro Rialto,
-MATILDA_ATG ENTERTAINMENT_2022,Matilda,ATG Entertainment,2022,2024,Teatro Nuevo Alcalá,
-MY FAIR LADY_STAGE ENTERTAINMENT_2012,My fair lady,Stage Entertainment,2012,2012,Auditorio de Tenerife,
-PEGADOS_FERRAN GONZÁLEZ & ALÍCIA SERRAT_2010,Pegados,Ferran González & Alícia Serrat,2010,2013,Almería Teatre,
-"PRISCILLA, REINA DEL DESIERTO_ATG ENTERTAINMENT_2014","Priscilla, reina del desierto",ATG Entertainment,2014,2015,Teatro Nuevo Alcalá,
+",2022,2023,Teatro EDP Gran Vía,,45,11
+MALINCHE_HATCHWELL INVERSIONES MUSICALES S.L._2022,Malinche,Hatchwell Inversiones Musicales S.L.,2022,2025,Ifema Madrid Live,,46,25
+MAMMA MIA!_ATG ENTERTAINMENT_2022,Mamma Mia!,ATG Entertainment,2022,,Teatro Rialto,,47,22
+MARI I CEL_DAGOLL DAGOM_2024,Mari i Cel,Dagoll Dagom,2024,2025,Teatre Victòria,,48,26
+MARTA TIENE UN MARCAPASOS_SMEDIA_2013,Marta tiene un marcapasos,Smedia,2013,2014,Teatro EDP Gran Vía,,49,11
+MAS DE 100 MENTIRAS_DRIVE ENTERTAINMENT_2011,Mas de 100 mentiras,Drive Entertainment,2011,2013,Teatro Rialto,,50,22
+MATILDA_ATG ENTERTAINMENT_2022,Matilda,ATG Entertainment,2022,2024,Teatro Nuevo Alcalá,,51,3
+MY FAIR LADY_STAGE ENTERTAINMENT_2012,My fair lady,Stage Entertainment,2012,2012,Auditorio de Tenerife,,52,27
+PEGADOS_FERRAN GONZÁLEZ & ALÍCIA SERRAT_2010,Pegados,Ferran González & Alícia Serrat,2010,2013,Almería Teatre,,53,28
+"PRISCILLA, REINA DEL DESIERTO_ATG ENTERTAINMENT_2014","Priscilla, reina del desierto",ATG Entertainment,2014,2015,Teatro Nuevo Alcalá,,54,3
 QUIEN MATÓ A SHERLOCK HOLMES?_BEON ENTERTAINMENT_2020,Quien mató a Sherlock Holmes?,"Beon Entertainment
-",2020,2021,Teatro EDP Gran Vía,
-"ROMEO Y JULIETA, EL MUSICAL_THEATRE PROPERTIES_2021","Romeo y Julieta, el musical",Theatre Properties,2021,2024,Teatro La Latina,
-SCHOOL OF ROCK_LET'S GO COMPANY_2024,School of Rock,Let's Go Company,2024,2024,Espacio Delicias,
-SISTER ACT_STAGE ENTERTAINMENT_2014,Sister Act,Stage Entertainment,2014,2016,Teatro Tívoli,
-SISTER ACT_STAGE ENTERTAINMENT_2015,Sister Act,Stage Entertainment,2015,2015,Teatro Nuevo Alcalá,
-SONRISAS Y LÁGRIMAS_ATG ENTERTAINMENT_2011,Sonrisas y lágrimas,ATG Entertainment,2011,2013,Teatro Coliseum,
-THE BOOK OF MORMON_ATG ENTERTAINMENT_2023,The Book of Mormon,ATG Entertainment,2023,,Teatro Calderón,
-THE HOLE_LET'S GO COMPANY_2011,The Hole,Let's Go Company,2011,2023,Teatro Calderón,
+",2020,2021,Teatro EDP Gran Vía,,55,11
+"ROMEO Y JULIETA, EL MUSICAL_THEATRE PROPERTIES_2021","Romeo y Julieta, el musical",Theatre Properties,2021,2024,Teatro La Latina,,56,18
+SCHOOL OF ROCK_LET'S GO COMPANY_2024,School of Rock,Let's Go Company,2024,2024,Espacio Delicias,,57,21
+SISTER ACT_STAGE ENTERTAINMENT_2014,Sister Act,Stage Entertainment,2014,2016,Teatro Tívoli,,58,6
+SISTER ACT_STAGE ENTERTAINMENT_2015,Sister Act,Stage Entertainment,2015,2015,Teatro Nuevo Alcalá,,58,3
+SONRISAS Y LÁGRIMAS_ATG ENTERTAINMENT_2011,Sonrisas y lágrimas,ATG Entertainment,2011,2013,Teatro Coliseum,,59,2
+THE BOOK OF MORMON_ATG ENTERTAINMENT_2023,The Book of Mormon,ATG Entertainment,2023,,Teatro Calderón,,60,20
+THE HOLE_LET'S GO COMPANY_2011,The Hole,Let's Go Company,2011,2023,Teatro Calderón,,61,20
 THE FULL MONTY_THEATRE PROPERTIES_2021,The full monty,"Theatre Properties
-",2021,2023,Teatro Rialto,
-TINA_STAGE ENTERTAINMENT_2021,Tina,Stage Entertainment,2021,2023,Teatro Coliseum,
+",2021,2023,Teatro Rialto,,62,22
+TINA_STAGE ENTERTAINMENT_2021,Tina,Stage Entertainment,2021,2023,Teatro Coliseum,,63,2
 TOCANDO NUESTRA CANCIÓN_TEATRO DEL SOHO S.L._2024,Tocando nuestra canción,"Teatro del Soho S.L.
-",2024,2024,Teatro Del Soho,
+",2024,2024,Teatro Del Soho,,64,9
 UNA RUBIA MUY LEGAL_PENTACIÓN ESPECTÁCULOS_2023,Una rubia muy legal,"Pentación Espectáculos
-",2023,2024,Teatro La Latina,
-WE WILL ROCK YOU_TEATROPOLIS (GRAN TEATRO CAIXABANK PRÍNCIPE PÍO)_2023,We Will Rock You,Teatropolis (Gran Teatro CaixaBank Príncipe Pío),2023,,Gran Teatro CaixaBank Príncipe Pío,
+",2023,2024,Teatro La Latina,,65,18
+WE WILL ROCK YOU_TEATROPOLIS (GRAN TEATRO CAIXABANK PRÍNCIPE PÍO)_2023,We Will Rock You,Teatropolis (Gran Teatro CaixaBank Príncipe Pío),2023,,Gran Teatro CaixaBank Príncipe Pío,,66,1
