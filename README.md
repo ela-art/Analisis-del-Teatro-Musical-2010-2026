@@ -3,7 +3,7 @@
 ![Mapa inicios](docs/mapa_inicios_producciones.png)
 
 ## Presentación completa del proyecto
-[Ver grabación en vídeo](docs/Grabación%20en%20video%20del%20proyecto.mp4?raw=1)
+[Ver grabación en vídeo] (https://youtu.be/rIwlUlNgwKk)
 
 
 
