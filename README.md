@@ -10,7 +10,7 @@
 
 # Análisis del Teatro Musical en España (2010–2026)
 
-Work in progress (marzo 2026): Actualización en curso: refactorizando el modelo de datos a star schema para mejorar análisis y escalabilidad.”
+**Work in progress (marzo 2026): Actualización en curso: refactorizando el modelo de datos a star schema para mejorar análisis y escalabilidad.**
 
 **Autora:** *Ela Ruiz González, Analista de Datos*  
 **Mail:** elaruizgonzalez@gmail.com  
