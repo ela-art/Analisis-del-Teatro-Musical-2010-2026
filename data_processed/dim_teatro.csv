@@ -1,29 +1,29 @@
-﻿id_teatro,teatro,ciudad
-1,Gran Teatro CaixaBank Príncipe Pío,Madrid
-2,Teatro Coliseum,Madrid
-3,Teatro Nuevo Alcalá,Madrid
-4,Teatro Nuevo Apolo,Madrid
-5,Teatro Albéniz,Madrid
-6,Teatro Tívoli,Barcelona
-7,Espacio Ibercaja Delicias,Zaragoza
-8,Teatro Marquina,Madrid
-9,Teatro Del Soho,Málaga
-10,Teatre Apolo,Barcelona
-11,Teatro EDP Gran Vía,Madrid
-12,Teatro Lope de Vega,Sevilla
-13,Teatro Principal de Zaragoza,Zaragoza
-14,Teatro Pavón,Madrid
-15,Teatros del Canal,Madrid
-16,Teatro Español,Madrid
-17,Veranos de la Villa,Madrid
-18,Teatro La Latina,Madrid
-19,Las Arenas,Barcelona
-20,Teatro Calderón,Madrid
-21,Espacio Delicias,Zaragoza
-22,Teatro Rialto,Madrid
-23,Teatre Poliorama,Barcelona
-24,Teatro Lara,Madrid
-25,Ifema Madrid Live,Madrid
-26,Teatre Victòria,Barcelona
-27,Auditorio de Tenerife,Tenerife
-28,Almería Teatre,Almería
+﻿id_teatro,teatro,ciudad,teatro_limpio
+1,Gran Teatro CaixaBank Príncipe Pío,Madrid,Gran Teatro CaixaBank Príncipe Pío
+2,Teatro Coliseum,Madrid,Teatro Coliseum
+3,Teatro Nuevo Alcalá,Madrid,Teatro Nuevo Alcalá
+4,Teatro Nuevo Apolo,Madrid,Teatro Nuevo Apolo
+5,Teatro Albéniz,Madrid,Teatro Albéniz
+6,Teatro Tívoli,Barcelona,Teatro Tívoli
+7,Espacio Ibercaja Delicias,Zaragoza,Espacio Ibercaja Delicias
+8,Teatro Marquina,Madrid,Teatro Marquina
+9,Teatro Del Soho,Málaga,Teatro Del Soho
+10,Teatre Apolo,Barcelona,Teatre Apolo
+11,Teatro EDP Gran Vía,Madrid,Teatro EDP Gran Vía
+12,Teatro Lope de Vega,Sevilla,Teatro Lope de Vega
+13,Teatro Principal de Zaragoza,Zaragoza,Teatro Principal de Zaragoza
+14,Teatro Pavón,Madrid,Teatro Pavón
+15,Teatros del Canal,Madrid,Teatros del Canal
+16,Teatro Español,Madrid,Teatro Español
+17,Veranos de la Villa,Madrid,Veranos de la Villa
+18,Teatro La Latina,Madrid,Teatro La Latina
+19,Las Arenas,Barcelona,Las Arenas
+20,Teatro Calderón,Madrid,Teatro Calderón
+21,Espacio Delicias,Zaragoza,Espacio Delicias
+22,Teatro Rialto,Madrid,Teatro Rialto
+23,Teatre Poliorama,Barcelona,Teatre Poliorama
+24,Teatro Lara,Madrid,Teatro Lara
+25,Ifema Madrid Live,Madrid,Ifema Madrid Live
+26,Teatre Victòria,Barcelona,Teatre Victòria
+27,Auditorio de Tenerife,Tenerife,Auditorio de Tenerife
+28,Almería Teatre,Almería,Almería Teatre
