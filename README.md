@@ -1,8 +1,7 @@
 
 ## Dashboard destacado
 
-[Dashboard pricing](./docs/grafica%20pricing1.png)
-
+[Dashboard pricing](./docs/grafica_pricing.png)
 
 [Ver análisis completo en PDF](https://raw.githubusercontent.com/ela-art/Analisis-del-Teatro-Musical-2010-2026/main/docs/pdf_del_proyecto.pdf)
 
