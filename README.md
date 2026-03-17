@@ -3,7 +3,7 @@
 ![Mapa inicios](docs/mapa_inicios_producciones.png)
 
 ## Presentación completa del proyecto
-[Ver grabación en vídeo] 
+[Ver análisis completo en PDF](https://raw.githubusercontent.com/ela-art/Analisis-del-Teatro-Musical-2010-2026/main/docs/pdf_del_proyecto.pdf)
 
 # Análisis del Teatro Musical en España (2010–2026)
 
