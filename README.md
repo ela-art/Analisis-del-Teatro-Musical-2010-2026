@@ -3,8 +3,7 @@
 ![Mapa inicios](docs/mapa_inicios_producciones.png)
 
 ## Presentación completa del proyecto
-[Ver grabación en vídeo] (https://youtu.be/rIwlUlNgwKk)
-
+[Ver grabación en vídeo] 
 
 # Análisis del Teatro Musical en España (2010–2026)
 
