@@ -6,70 +6,130 @@
 [Ver grabación en vídeo] (https://youtu.be/rIwlUlNgwKk)
 
 
-
-
 # Análisis del Teatro Musical en España (2010–2026)
 
-**Work in progress (marzo 2026): Actualización en curso: refactorizando el modelo de datos a star schema para mejorar análisis y escalabilidad.**
+**Autora:** Ela Ruiz González · Data Analyst  
+**Estado:** Proyecto completo (modelo estrella implementado)  
 
-**Autora:** *Ela Ruiz González, Analista de Datos*  
-**Mail:** elaruizgonzalez@gmail.com  
-
-Proyecto sectorial para detectar patrones de producción, concentración empresarial, dinámicas territoriales, explotación en gira y características artísticas mediante ETL reproducible y dashboards en Power BI orientados a decisiones culturales y de negocio.
+Proyecto end-to-end orientado a negocio que analiza el mercado del teatro musical en España mediante la construcción de un dataset propio y un modelo analítico en Power BI. El objetivo es identificar patrones estructurales en producción, pricing, longevidad, giras y comportamiento de la demanda para apoyar decisiones estratégicas.
 
 ---
 
-## Datos, fuentes y metodología
+## Contexto y objetivo
 
-Datasets construidos desde cero en Python a partir del Anuario de Estadísticas Culturales, SGAE, webs oficiales, archivos especializados y conocimiento profesional; CSV normalizados, validados y enriquecidos con variables artísticas, temporales y geográficas; proceso documentado con notebooks ETL/EDA y visualización en Power BI.
+El sector carece de fuentes estructuradas y comparables. Este proyecto aborda ese vacío construyendo una base de datos original para responder preguntas de negocio como:
 
----
-
-## Proceso analítico y EDA ordenado
-
-ETL: integración de fuentes, normalización histórica, deduplicación, validación de tipos y enriquecimiento.  
-
-EDA: auditoría de calidad, análisis territorial, giras y escalabilidad, concentración empresarial, duración media, formatos dominantes y pricing.  
-
-Tecnologías: Python (Pandas, NumPy), Jupyter, Matplotlib, Seaborn, Power BI, Git/GitHub, ChatGPT.  
-
-Cada notebook EDA incluye visualizaciones sistemáticas (distribuciones, outliers, correlaciones y series temporales) usadas para validar hipótesis antes del modelado en Power BI.
+- ¿Cómo evoluciona la producción tras shocks de demanda?
+- ¿Qué factores explican la permanencia en cartel?
+- ¿Cómo se estructura el pricing del mercado?
+- ¿Qué papel juegan las productoras, los teatros y los géneros?
 
 ---
 
-## Implicaciones estratégicas y decisiones para productores
+## Datos y metodología
 
-El proyecto culmina con un bloque ejecutivo de conclusiones del mercado (2010–2026), implicaciones estratégicas y decisiones operativas para productores basadas en reglas como P75/P90 para expansión y pricing.
+Dataset construido desde cero en Python a partir de fuentes públicas (Ministerio de Cultura, SGAE, webs especializadas) y validado con conocimiento sectorial.
+
+- 71 musicales (2010–2026)
+- Variables: producción, duración, giras, pricing, asistencia, geografía
+- Uso de proxies documentados (precio web, estimaciones de permanencia)
+
+El proceso incluye:
+- ETL reproducible (limpieza, normalización, deduplicación)
+- EDA para validación de hipótesis
+- Modelado final en Power BI
 
 ---
 
-## Hallazgos y limitaciones
+## Modelo de datos
 
-Predominio de franquicias (~73 %), alta concentración empresarial, Madrid como polo inicial, >50 % de títulos en gira y longevidad extrema en pocos casos (lidera *El Rey León*).  
+El modelo ha sido refactorizado a un **esquema en estrella**:
 
-Precios basados en tarifas web, muestra limitada en 2026, ausencia de datos internos de taquilla, alta heterogeneidad por plaza, 71 musicales seleccionados manualmente y uso de proxies documentados.
+- `fact_producciones` → unidad de análisis (obra + año_inicio)
+- `dim_obra` → género, duración, origen
+- `dim_teatro` → ciudad, plaza
+- `dim_anio` → contexto temporal
+- Tablas auxiliares: pricing y hábitos
+
+Este diseño mejora la consistencia analítica, la escalabilidad y el rendimiento.
 
 ---
 
-## Repositorio, reproducción y estado
+## Principales hallazgos
 
-**/dashboards/** contiene los archivos de Power BI con todo el trabajo final integrado: modelos, visualizaciones y storytelling analítico.  
+- Mercado cíclico con recuperación clara post-pandemia  
+- Alta concentración en pocas productoras y en Madrid  
+- Predominio de franquicias (~70%)  
+- Longevidad concentrada en pocos títulos  
+- Jukebox y familiar con mayor permanencia  
+- Pricing segmentado con clara jerarquía por escala y teatro  
+- Demanda mayoritariamente femenina y sensible a shocks externos  
 
-**/data_interim/** contiene los archivos intermedios generados durante el proceso de limpieza y transformación: datasets parciales, KPIs temporales y versiones previas utilizadas para validar cálculos antes de construir los modelos finales.  
+---
 
-**/data_processed/** alberga los datasets finales listos para análisis y visualización en Power BI, incluyendo el dataset maestro del sector, el pricing definitivo y el dataset de hábitos de asistencia.  
+## Implicaciones estratégicas
 
-**/data_raw/** incluye los archivos originales en Excel y CSV sin transformar, obtenidos de fuentes públicas y recopilaciones propias, utilizados como punto de partida del proceso ETL.  
+- Estrenar en fases expansivas del mercado  
+- Usar Madrid como hub de validación  
+- Priorizar géneros comerciales para estabilidad  
+- Combinar franquicias (seguridad) e IP propia (valor)  
+- Alinear pricing con posicionamiento, teatro y escala  
+- Diseñar estrategias de explotación diferenciadas (cartel vs gira)  
 
-**/docs/** recoge la documentación final del proyecto: grabación en vídeo de la presentación, el mapa de inicios geográficos mostrado en el README y el PDF completo del análisis sectorial con storytelling y visualizaciones.  
+---
 
-**/notebooks_eda/** contiene los notebooks de análisis exploratorio para cada dataset, donde se estudian calidad de datos, territorialidad, giras, concentración empresarial, duración en cartel y pricing.  
+## Limitaciones
 
-**/notebooks_etl/** incluye el notebook principal del proceso ETL del dataset maestro, donde se integran fuentes, se normalizan entidades, se eliminan duplicados y se construye la estructura relacional final.
+- Muestra reducida en pricing 2026  
+- Ausencia de datos reales de taquilla  
+- Uso de proxies (precio web, estimaciones)  
+- Heterogeneidad entre plazas y teatros  
+
+---
+
+## Stack técnico
+
+Python (Pandas, NumPy)  
+Jupyter Notebook  
+Power BI (modelado estrella, DAX, dashboards)  
+Git / GitHub  
+ChatGPT (asistencia en desarrollo)
+
+---
+
+## Estructura del repositorio
+
+- `/data_raw/` → fuentes originales  
+- `/data_interim/` → datasets intermedios  
+- `/data_processed/` → datasets finales  
+- `/notebooks_eda/` → análisis exploratorio  
+- `/notebooks_etl/` → construcción del modelo  
+- `/dashboards/` → Power BI final  
+- `/docs/` → documentación y entregables  
 
 ---
 
 ## Cómo recorrer el proyecto
 
-Clonar el repositorio y comenzar por `/data_raw/`; continuar con `/data_interim/` para entender la transformación; revisar `/notebooks_eda/` para el análisis (los EDA iniciales sirvieron para detectar inconsistencias y definir la estructura final del dataset maestro, que se construyó posteriormente en el ETL); continuar con `/notebooks_etl/`; consultar `/data_processed/` para los datasets finales; explorar dashboards y documentación en `/docs/`.
+1. Revisar `/notebooks_eda/` para entender el análisis  
+2. Continuar con `/notebooks_etl/` (construcción del dataset)  
+3. Explorar `/data_processed/`  
+4. Abrir dashboards en `/dashboards/`  
+
+---
+
+## Mejoras futuras
+
+- Integrar datos reales de taquilla  
+- Ampliar cobertura del dataset  
+- Automatizar pipelines  
+- Modelos predictivos de permanencia y pricing  
+
+---
+
+## Autora
+
+Ela Ruiz González  
+Data Analyst  
+elaruizgonzalez@gmail.com
 
