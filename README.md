@@ -1,10 +1,6 @@
 
 ## Dashboard destacado
-
-[Dashboard pricing](https://raw.githubusercontent.com/ela-art/Analisis-del-Teatro-Musical-2010-2026/main/docs/grafica_princing1.png)
-
-
-
+[Dashboard destacado](./docs/grafica_princing1.png)
 
 
 
