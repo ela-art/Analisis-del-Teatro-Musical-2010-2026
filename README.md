@@ -1,5 +1,5 @@
 
-## Dashboard destacado
+
 <p align="center">
   <img src="docs/grafica_princing1.png" width="900">
 </p>
