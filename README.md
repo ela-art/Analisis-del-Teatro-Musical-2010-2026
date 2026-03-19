@@ -1,7 +1,8 @@
 
 ## Dashboard destacado
-[Dashboard destacado](./docs/grafica_princing1.png)
-
+<p align="center">
+  <img src="docs/grafica_princing1.png" width="900">
+</p>
 
 
 [Ver análisis completo en PDF](https://raw.githubusercontent.com/ela-art/Analisis-del-Teatro-Musical-2010-2026/main/docs/pdf_del_proyecto.pdf)
