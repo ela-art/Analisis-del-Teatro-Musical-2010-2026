@@ -1,7 +1,11 @@
 
 
 <p align="center">
-  <img src="docs/grafica_princing1.png" width="900">
+  <img src="docs/pricing.png" width="900">
+</p>
+
+<p align="center">
+  <img src="docs/longevidad.png" width="900">
 </p>
 
 
@@ -94,7 +98,7 @@ Python (Pandas, NumPy)
 Jupyter Notebook  
 Power BI (modelado estrella, DAX, dashboards)  
 Git / GitHub  
-ChatGPT (asistencia en desarrollo)
+
 
 ---
 
