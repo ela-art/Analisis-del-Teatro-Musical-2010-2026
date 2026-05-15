@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\\\Users\\\\elaru\\\\anaconda3\\\\python.exe\" scripts/04_build_competition_profiles.py)"
+    ]
+  }
+}
